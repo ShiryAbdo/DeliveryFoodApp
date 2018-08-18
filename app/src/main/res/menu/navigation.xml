@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ChineseFragment"
+        android:icon="@drawable/ic_noodles"
+        android:title="@string/Chinese"
+        app:showAsAction="ifRoom"
+         />
+
+    <item
+        android:id="@+id/pizzaFragment"
+        android:icon="@drawable/ic_pizza"
+        android:title="@string/pizza"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/SeafoodFragment"
+        android:icon="@drawable/ic_fish_and_lemon"
+        android:title="@string/Seafood"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/burgerFragment"
+        android:icon="@drawable/ic_hamburger_with_bacoon"
+        android:title="@string/Burger"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/Kebab"
+        android:icon="@drawable/ic_skewer"
+        android:title="@string/Kebab"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+
+</menu>
